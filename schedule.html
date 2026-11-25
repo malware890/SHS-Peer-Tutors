@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Schedule | Peer Tutors</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-row container">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">PT</span>
+      <span>Peer Tutors<small>STEVENSON HIGH SCHOOL &middot; D125</small></span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <ul class="nav-main">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="schedule.html" aria-current="page">Schedule</a></li>
+      <li class="dropdown">
+        <button type="button">Join Us <span class="caret">&#9662;</span></button>
+        <div class="dropdown-menu">
+          <a href="apply.html">General Application</a>
+          <a href="dates.html">Important Dates</a>
+          <a href="requirements.html">Membership Requirements</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <button type="button">Members <span class="caret">&#9662;</span></button>
+        <div class="dropdown-menu">
+          <a href="missing-shift.html">Missing a Shift</a>
+          <a href="handbook.html">Handbook</a>
+          <a href="committees.html">Committees</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <button type="button">Content Database <span class="caret">&#9662;</span></button>
+        <div class="dropdown-menu">
+          <a href="database.html#study-guides">Study Guides</a>
+          <a href="database.html#video-guides">Video Guides</a>
+          <a href="database.html#spark-notes">SPARK Notes</a>
+          <a href="database.html#submissions">Submissions</a>
+        </div>
+      </li>
+    </ul>
+    <div class="nav-cta">
+      <a href="apply.html" class="btn btn-primary btn-sm"><span class="btn-text">Join Peer Tutors</span><span aria-hidden="true">&rarr;</span></a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">Home</a> / Schedule</div>
+      <span class="eyebrow">Open Shifts, Claimed Live</span>
+      <h1>The tutoring schedule</h1>
+      <p class="lede" style="max-width:640px;">The Eboard sets the base schedule at the start of the year. See an empty spot that fits your free period? Grab it below &mdash; it'll show up as pending until your director gives the thumbs up.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+
+      <div class="proto-banner reveal">
+        <span class="dot" aria-hidden="true"></span>
+        <p style="margin:0;"><strong>Heads up:</strong> this board is a working prototype. Claims you make right now are only saved on <em>this device</em>, so you can test the flow. Next step is hooking it up to a shared Google Sheet (like the one we already use for attendance) so every claim shows up for everyone, instantly.</p>
+      </div>
+
+      <div class="legend reveal">
+        <div class="legend-item"><span class="legend-swatch filled"></span> Filled by Eboard</div>
+        <div class="legend-item"><span class="legend-swatch pending"></span> Claimed, awaiting OK</div>
+        <div class="legend-item"><span class="legend-swatch open"></span> Open &mdash; grab it!</div>
+      </div>
+
+      <div class="tabs-bar" data-tab-group="sched">
+        <button class="tab-btn active" data-tab="math">Math</button>
+        <button class="tab-btn" data-tab="cs">Computer Science</button>
+        <button class="tab-btn" data-tab="science">Science</button>
+        <button class="tab-btn" data-tab="humanities">Humanities</button>
+        <button class="tab-btn" data-tab="mll">Multilingual Learning</button>
+        <button class="tab-btn" data-tab="mst">Middle School Tutoring</button>
+      </div>
+
+      <div class="tab-panel active" data-tab-group="sched" data-tab="math">
+        <div class="schedule-grid reveal">
+
+          <div class="shift-row">
+            <div class="slot-label">Before School<br><span style="color:var(--ink-faint); font-weight:400;">7:15&ndash;7:45</span></div>
+            <div class="shift-cells">
+              <div class="shift-cell filled"><span class="day">Mon</span><span class="name">Julia D.</span></div>
+              <div class="shift-cell open" data-shift="math-tue-before" data-label="Tue" data-subject="Math"></div>
+              <div class="shift-cell filled"><span class="day">Wed</span><span class="name">Arjun P.</span></div>
+              <div class="shift-cell open" data-shift="math-thu-before" data-label="Thu" data-subject="Math"></div>
+              <div class="shift-cell filled"><span class="day">Fri</span><span class="name">Priya S.</span></div>
+            </div>
+          </div>
+
+          <div class="shift-row">
+            <div class="slot-label">Lunch Shift<br><span style="color:var(--ink-faint); font-weight:400;">11:30&ndash;12:00</span></div>
+            <div class="shift-cells">
+              <div class="shift-cell filled"><span class="day">Mon</span><span class="name">Ethan K.</span></div>
+              <div class="shift-cell filled"><span class="day">Tue</span><span class="name">Maya R.</span></div>
+              <div class="shift-cell open" data-shift="math-wed-lunch" data-label="Wed" data-subject="Math"></div>
+              <div class="shift-cell filled"><span class="day">Thu</span><span class="name">Julia D.</span></div>
+              <div class="shift-cell open" data-shift="math-fri-lunch" data-label="Fri" data-subject="Math"></div>
+            </div>
+          </div>
+
+          <div class="shift-row">
+            <div class="slot-label">After School<br><span style="color:var(--ink-faint); font-weight:400;">3:45&ndash;4:15</span></div>
+            <div class="shift-cells">
+              <div class="shift-cell open" data-shift="math-mon-after" data-label="Mon" data-subject="Math"></div>
+              <div class="shift-cell filled"><span class="day">Tue</span><span class="name">Arjun P.</span></div>
+              <div class="shift-cell filled"><span class="day">Wed</span><span class="name">Ethan K.</span></div>
+              <div class="shift-cell open" data-shift="math-thu-after" data-label="Thu" data-subject="Math"></div>
+              <div class="shift-cell pending" data-shift="math-fri-after" data-label="Fri" data-subject="Math"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="tab-panel" data-tab-group="sched" data-tab="cs">
+        <div class="embed-placeholder reveal">
+          <div class="glyph">&#128187;</div>
+          <strong>CS schedule not loaded yet</strong>
+          <p class="soon-note" style="margin-top:6px;">The Eboard will upload this content area's base schedule soon &mdash; check back!</p>
+        </div>
+      </div>
+      <div class="tab-panel" data-tab-group="sched" data-tab="science">
+        <div class="embed-placeholder reveal">
+          <div class="glyph">&#129514;</div>
+          <strong>Science schedule not loaded yet</strong>
+          <p class="soon-note" style="margin-top:6px;">The Eboard will upload this content area's base schedule soon &mdash; check back!</p>
+        </div>
+      </div>
+      <div class="tab-panel" data-tab-group="sched" data-tab="humanities">
+        <div class="embed-placeholder reveal">
+          <div class="glyph">&#128214;</div>
+          <strong>Humanities schedule not loaded yet</strong>
+          <p class="soon-note" style="margin-top:6px;">The Eboard will upload this content area's base schedule soon &mdash; check back!</p>
+        </div>
+      </div>
+      <div class="tab-panel" data-tab-group="sched" data-tab="mll">
+        <div class="embed-placeholder reveal">
+          <div class="glyph">&#127760;</div>
+          <strong>Multilingual Learning schedule not loaded yet</strong>
+          <p class="soon-note" style="margin-top:6px;">The Eboard will upload this content area's base schedule soon &mdash; check back!</p>
+        </div>
+      </div>
+      <div class="tab-panel" data-tab-group="sched" data-tab="mst">
+        <div class="embed-placeholder reveal">
+          <div class="glyph">&#127979;</div>
+          <strong>Middle School Tutoring schedule not loaded yet</strong>
+          <p class="soon-note" style="margin-top:6px;">The Eboard will upload this content area's base schedule soon &mdash; check back!</p>
+        </div>
+      </div>
+
+      <div class="claim-panel is-hidden reveal">
+        <span class="eyebrow">Almost there</span>
+        <h3>Grab <span class="claim-shift-label">this shift</span></h3>
+        <p style="font-size:0.9rem;">We'll flag this as pending on the board right away. Your Content Director still needs to confirm it before it's official.</p>
+        <form class="claim-form">
+          <div class="field">
+            <label for="claim-name">Your name</label>
+            <input id="claim-name" name="name" type="text" required placeholder="Jordan Alvarez">
+          </div>
+          <div class="field">
+            <label for="claim-email">School email</label>
+            <input id="claim-email" name="email" type="email" required placeholder="jalvarez25@students.d125.org">
+          </div>
+          <button type="submit" class="btn btn-primary">Request This Shift</button>
+        </form>
+        <p class="claim-confirm soon-note" style="margin-top:12px;"></p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section-sunken">
+    <div class="container" style="max-width:640px;">
+      <div class="section-head left">
+        <span class="eyebrow secondary">Can't Make a Shift?</span>
+        <h2>Request a swap or a makeup slot</h2>
+        <p>If you already know you'll miss a shift, use this instead of (or alongside) the <a href="missing-shift.html">Missing a Shift</a> form &mdash; it tells us which open slot you'd like to move into.</p>
+      </div>
+      <div class="claim-panel" style="transform:rotate(0.4deg);">
+        <form class="makeup-form">
+          <div class="field">
+            <label for="mk-name">Your name</label>
+            <input id="mk-name" name="name" type="text" required placeholder="Jordan Alvarez">
+          </div>
+          <div class="field">
+            <label for="mk-email">School email</label>
+            <input id="mk-email" name="email" type="email" required placeholder="jalvarez25@students.d125.org">
+          </div>
+          <div class="field">
+            <label for="mk-current">Your current shift</label>
+            <input id="mk-current" name="current" type="text" required placeholder="e.g. Math &mdash; Monday After School">
+          </div>
+          <div class="field">
+            <label for="mk-swap">Open slot you'd like instead</label>
+            <input id="mk-swap" name="swap" type="text" required placeholder="e.g. Math &mdash; Wednesday Lunch">
+          </div>
+          <div class="field">
+            <label for="mk-note">Anything else your director should know?</label>
+            <textarea id="mk-note" name="note" rows="3" placeholder="Optional"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Request</button>
+        </form>
+        <p class="makeup-confirm soon-note" style="margin-top:12px;"></p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand"><span class="brand-mark">PT</span> Peer Tutors</div>
+        <p>Fostering collective academic success through collaborative tutoring and a growth mindset &mdash; for tutors and tutees alike. A student-run organization at Adlai E. Stevenson High School (D125).</p>
+        <div class="social-row">
+          <a href="https://instagram.com" aria-label="Instagram">IG</a>
+          <a href="mailto:pteboard-group@d125.org" aria-label="Email">&#9993;</a>
+        </div>
+      </div>
+      <div>
+        <h4>Get Involved</h4>
+        <ul>
+          <li><a href="apply.html">General Application</a></li>
+          <li><a href="dates.html">Important Dates</a></li>
+          <li><a href="requirements.html">Membership Requirements</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Members</h4>
+        <ul>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="missing-shift.html">Missing a Shift</a></li>
+          <li><a href="handbook.html">Handbook</a></li>
+          <li><a href="committees.html">Committees</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="database.html">Content Database</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Peer Tutors &middot; Adlai E. Stevenson High School, District 125</span>
+      <span>Website questions: <a href="mailto:igupta27@students.d125.org">igupta27@students.d125.org</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // First-visit demo seed so the "pending" example cell has a name to show
+  (function () {
+    var KEY = "pt_shift_claims";
+    if (!localStorage.getItem(KEY)) {
+      localStorage.setItem(KEY, JSON.stringify({
+        "math-fri-after": { name: "Sam T.", email: "demo@students.d125.org" }
+      }));
+    }
+  })();
+</script>
+<script src="assets/script.js"></script>
+</body>
+</html>
