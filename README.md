@@ -1,4 +1,6 @@
-# Peer Tutors Website
+# SHS-Peer-Tutors
+
+Adlai E. Stevenson High School Peer Tutors — software hosted by Computer Science Club.
 
 Revamped website for the Peer Tutors club at Adlai E. Stevenson High School (District 125) — a free, static, no-build-step site that replaces the old Google Sites page. Built with CS Club.
 
